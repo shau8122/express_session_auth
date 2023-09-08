@@ -1,0 +1,19 @@
+<section style="height: 100vh; width: 100vw; display: flex; justify-content:center; flex-direction: column; align-items: center;">
+  <h1 style="margin: 10px;">Register</h1>
+  <form action="/register" method="post">
+    <div style="margin: 10px;">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" required>
+    </div>
+    <div style="margin: 10px;">
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required>
+    </div>
+    <div style="margin: 10px;">
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" required>
+    </div>
+    <button type="submit" style="margin: 10px;">Register</button>
+  </form>
+  <a href="/login" style="margin: 10px;">Login</a>
+</section>
